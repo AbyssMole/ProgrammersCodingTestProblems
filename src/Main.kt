@@ -1,5 +1,5 @@
-import lv_1.no133499
+import lv_1.no132267
 
 fun main() {
-    print(no133499(arrayOf("ayaye", "uuu", "yeye", "yemawoo", "ayaayaa")))
+    print(no132267(2, 1, 20))
 }
