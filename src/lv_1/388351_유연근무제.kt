@@ -1,9 +1,6 @@
 package lv_1
 
-fun main() {
-    val schedules: IntArray = intArrayOf(700, 800, 1100)
-    val timelogs: Array<IntArray> = arrayOf(intArrayOf(710, 2359, 1050, 700, 650, 631, 659), intArrayOf(800, 801, 805, 800, 759, 810, 809), intArrayOf(1105, 1001, 1002, 600, 1059, 1001, 1100))
-    val startday: Int = 5
+fun no388351(schedules: IntArray = intArrayOf(700, 800, 1100), timelogs: Array<IntArray> = arrayOf(intArrayOf(710, 2359, 1050, 700, 650, 631, 659), intArrayOf(800, 801, 805, 800, 759, 810, 809), intArrayOf(1105, 1001, 1002, 600, 1059, 1001, 1100)), startday: Int = 5): Int {
     var answer = 0;
 
     timelogs.forEachIndexed { index, times ->
@@ -37,5 +34,5 @@ fun main() {
         }
     }
 
-    println(answer)
+    return answer
 }

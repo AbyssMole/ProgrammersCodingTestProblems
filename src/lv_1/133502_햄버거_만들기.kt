@@ -2,10 +2,7 @@ package lv_1
 
 import java.util.Stack
 
-fun main() {
-    print(no133502(intArrayOf(2, 1, 1, 2, 3, 1, 2, 3, 1)))
-}
-
+// case) ingredient = [2, 1, 1, 2, 3, 1, 2, 3, 1]
 fun no133502(ingredient: IntArray): Int {
     var answer = 0
     var temp = Stack<Int>()

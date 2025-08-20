@@ -1,14 +1,6 @@
 package lv_1
 
-fun main() {
-    val wallpaper = arrayOf(
-        "..........",
-        ".....#....",
-        "......##..",
-        "...##.....",
-        "....#....."
-    )
-
+fun no161990(wallpaper: Array<String> = arrayOf("..........", ".....#....", "......##..", "...##.....", "....#.....")): IntArray {
     var answer = intArrayOf()
 
     wallpaper.forEachIndexed { index, line ->
@@ -37,5 +29,5 @@ fun main() {
         }
     }
 
-    print(answer.toList())
+    return answer
 }

@@ -3,10 +3,8 @@ package lv_1
 import java.text.SimpleDateFormat
 import java.util.Calendar
 
-fun main() {
-    val today = "2022.05.19"
-    val terms = arrayOf("A 6", "B 12", "C 3")
-    val privacies = arrayOf("2021.05.02 A", "2021.07.01 B", "2022.02.19 C", "2022.02.20 C")
+// case) today = "2022.05.19", terms = ["A 6", "B 12", "C 3"], privacies = ["2021.05.02 A", "2021.07.01 B", "2022.02.19 C", "2022.02.20 C"]
+fun no150370(today: String = "2022.05.19", terms: Array<String> = arrayOf("A 6", "B 12", "C 3"), privacies: Array<String> = arrayOf("2021.05.02 A", "2021.07.01 B", "2022.02.19 C", "2022.02.20 C")): IntArray {
     var answer = intArrayOf()
 
     val todayToDate = Calendar.getInstance()
@@ -33,5 +31,5 @@ fun main() {
         }
     }
 
-    println(answer.toList())
+    return answer
 }

@@ -1,9 +1,6 @@
 package lv_1
 
-fun main() {
-    val n = 8
-    val m = 4
-    val section = intArrayOf(1, 2, 3, 6)
+fun no161989(n: Int = 8, m: Int = 4, section: IntArray = intArrayOf(1, 2, 3, 6)): Int {
     var answer = 0
 
     var stack = 0
@@ -26,5 +23,5 @@ fun main() {
         }
     }
 
-    print(answer)
+    return answer
 }

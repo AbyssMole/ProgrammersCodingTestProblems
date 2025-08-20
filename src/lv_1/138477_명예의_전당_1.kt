@@ -1,8 +1,7 @@
 package lv_1
 
-fun main() {
-    val k = 3
-    val scores = intArrayOf(10, 100, 20, 150, 1, 100, 200)
+// case) k = 3, scores = [10, 100, 20, 150, 1, 100, 200]
+fun no138477(k: Int, scores: IntArray): IntArray {
     var answer = intArrayOf()
 
     var ranking = intArrayOf()
@@ -20,5 +19,5 @@ fun main() {
         answer += ranking.min()
     }
 
-    print(answer.toList())
+    return answer
 }

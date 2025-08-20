@@ -1,7 +1,7 @@
 package lv_1
 
-fun main() {
-    val s = "abracadabraa"
+// case) s = "abracadabraa"
+fun no140108(s: String = "abracadabraa"): Int {
     var answer = 0
     var x: Char? = null
     var xCount = 0
@@ -29,5 +29,5 @@ fun main() {
         }
     }
 
-    print(answer)
+    return answer
 }

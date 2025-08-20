@@ -1,8 +1,6 @@
 package lv_1
 
-fun main() {
-    val keyMap: Array<String> = arrayOf("ABACD", "BCEFD")
-    val targets: Array<String> = arrayOf("ABCD","AABB")
+fun no160586(keyMap: Array<String> = arrayOf("ABACD", "BCEFD"), targets: Array<String> = arrayOf("ABCD","AABB")): IntArray {
     var answer: IntArray = intArrayOf()
 
     val tempMap = HashMap<Char, Int>()
@@ -31,5 +29,5 @@ fun main() {
         }
     }
 
-    println(answer.toList())
+    return answer
 }

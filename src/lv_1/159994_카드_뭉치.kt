@@ -1,11 +1,6 @@
 package lv_1
 
-import kotlin.math.PI
-
-fun main() {
-    val cards1: Array<String> = arrayOf("i", "water", "drink")
-    val cards2: Array<String> = arrayOf("want", "to")
-    val goal: Array<String> = arrayOf("i", "want", "to", "drink", "water")
+fun no159994(cards1: Array<String> = arrayOf("i", "water", "drink"), cards2: Array<String> = arrayOf("want", "to"), goal: Array<String> = arrayOf("i", "want", "to", "drink", "water")): String {
     var answer = "Yes"
 
     var count1 = 0
@@ -31,5 +26,5 @@ fun main() {
         }
     }
 
-    println(answer)
+    return answer
 }

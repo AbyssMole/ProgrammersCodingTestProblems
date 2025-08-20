@@ -1,7 +1,7 @@
 package lv_1
 
-fun main() {
-    val s = "banana"
+// case) s = "banana"
+fun no142086(s: String = "banana"): List<Int> {
     val answer = MutableList(s.length) { 0 }
 
     for(i in 0 until s.length) {
@@ -24,5 +24,5 @@ fun main() {
         continue
     }
 
-    println(answer)
+    return answer
 }

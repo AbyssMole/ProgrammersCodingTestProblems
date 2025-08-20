@@ -1,9 +1,7 @@
 package lv_1
 
-fun main() {
-    val k = 3
-    val m = 4
-    val score = intArrayOf(1, 2, 3, 1, 2, 3, 1)
+// case) k = 3, m = 4, score = [1, 2, 3, 1, 2, 3, 1]
+fun no135808(k: Int, m: Int, score: IntArray): Int {
     var answer = 0
 
     val sortedScore = score.sortedDescending()
@@ -12,5 +10,5 @@ fun main() {
         answer += sortedScore[i] * m
     }
 
-    print(answer)
+    return answer
 }

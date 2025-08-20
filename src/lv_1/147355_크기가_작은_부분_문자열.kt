@@ -1,8 +1,7 @@
 package lv_1
 
-fun main() {
-    val t = "500220839878"
-    val p = "7"
+// case) t = "500220839878", p = "7"
+fun no147355(t: String, p: String): Int {
     var answer = 0
 
     for(i in 0 until t.length - p.length) {
@@ -11,5 +10,5 @@ fun main() {
         }
     }
 
-    print(answer)
+    return answer
 }

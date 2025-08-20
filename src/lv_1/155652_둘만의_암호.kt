@@ -1,9 +1,6 @@
 package lv_1
 
-fun main() {
-    val s = "aukks"
-    val skip = "wbqd"
-    val index = 5
+fun no155652(s: String = "aukks", skip: String = "wbqd", index: Int = 5): String {
     var answer = ""
 
     for(c in s) {
@@ -28,5 +25,5 @@ fun main() {
         answer += nextChar
     }
 
-    println(answer)
+    return answer
 }

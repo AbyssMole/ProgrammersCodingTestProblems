@@ -2,10 +2,8 @@ package lv_1
 
 import kotlin.math.sqrt
 
-fun main() {
-    val number = 100000
-    val limit = 100
-    val power = 2
+// case) number = 100000, limit = 100, power = 2
+fun no136898(number: Int = 100000, limit: Int = 100, power: Int = 2): Int {
     var answer = 0
 
     for(num in 1..number) {
@@ -21,10 +19,9 @@ fun main() {
             }
         }
 
-        print("$count, ")
+
         answer += if(count > limit) power else count
     }
 
-    println()
-    print(answer)
+    return answer
 }

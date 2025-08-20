@@ -1,10 +1,7 @@
 package lv_1
 
-fun main() {
-    print(solution(intArrayOf(1, 3, 4, 6)))
-}
-
-fun solution(food: IntArray): String {
+// case) food = [1, 3, 4, 6]
+fun no134240(food: IntArray): String {
     var answer = ""
 
     for(i in 1 until food.size) {
