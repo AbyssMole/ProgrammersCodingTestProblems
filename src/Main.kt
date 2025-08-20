@@ -1,5 +1,5 @@
-import lv_1.no132267
+import lv_1.no131705
 
 fun main() {
-    print(no132267(2, 1, 20))
+    print(no131705(intArrayOf(-2, 3, 0, 2, -5)))
 }
