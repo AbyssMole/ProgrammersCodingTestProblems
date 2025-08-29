@@ -1,5 +1,5 @@
-import lv_1.no81301
+import lv_1.no77884
 
 fun main() {
-    print(no81301())
+    print(no77884())
 }
